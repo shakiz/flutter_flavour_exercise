@@ -1,13 +1,26 @@
+#To generate build flavour files - flutter pub run flutter_flavorizr
 flavors:
-  apple:
+  freeDev:
     app:
-      name: "Apple App"
-
+      name: "Free Dev App"
     android:
-      applicationId: "com.example.apple"
-  banana:
+      applicationId: "com.project.freeDev"
+      icon: "assets/icons/free_dev.png"
+  freeRelease:
     app:
-      name: "Banana App"
-
+      name: "Free Release App"
     android:
-      applicationId: "com.example.banana"
+      applicationId: "com.project.freeRelease"
+      icon: "assets/icons/free_release.png"
+  paidRelease:
+    app:
+      name: "Paid Dev App"
+    android:
+      applicationId: "com.project.paidRelease"
+      icon: "assets/icons/paid_dev.png"
+  paidDev:
+    app:
+      name: "Paid Release App"
+    android:
+      applicationId: "com.project.paidDev"
+      icon: "assets/icons/paid_release.png"

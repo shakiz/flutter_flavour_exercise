@@ -28,15 +28,25 @@ android {
     flavorDimensions += "flavor-type"
 
     productFlavors {
-        apple {
+        freeDev {
             dimension "flavor-type"
-            applicationId "com.example.apple"
-            resValue "string", "app_name", "Apple App"
+            applicationId "com.project.freeDev"
+            resValue "string", "app_name", "Free Dev App"
         }
-        banana {
+        freeRelease {
             dimension "flavor-type"
-            applicationId "com.example.banana"
-            resValue "string", "app_name", "Banana App"
+            applicationId "com.project.freeRelease"
+            resValue "string", "app_name", "Free Release App"
+        }
+        paidRelease {
+            dimension "flavor-type"
+            applicationId "com.project.paidRelease"
+            resValue "string", "app_name", "Paid Dev App"
+        }
+        paidDev {
+            dimension "flavor-type"
+            applicationId "com.project.paidDev"
+            resValue "string", "app_name", "Paid Release App"
         }
     }
 
